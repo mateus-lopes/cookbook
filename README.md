@@ -25,7 +25,3 @@ Iniciar a aplicação em modo de desenvolvimento:
 ```sh
 npm run dev
 ```
-Ou, para compilar a aplicação para produção
-```sh
-npm run build
-```
