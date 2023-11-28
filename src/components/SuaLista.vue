@@ -15,6 +15,7 @@
 
 <script lang="ts">
 import Tag from './Tag.vue';
+import type { PropType } from 'vue';
 
 export default {
   components: {
@@ -22,7 +23,7 @@ export default {
   },
   props: {
     ingredientes: {
-      type: Array,
+      type: Array as PropType<string[]>,
       required: true,
     },
   },
