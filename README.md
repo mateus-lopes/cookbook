@@ -1,6 +1,6 @@
 # CookbookVue
 
-Projeto ágil e intuitivo desenvolvido com Vue 3 no Vite. Este projeto foi inspirado pelo Cookin'Up da [Alura](https://www.alura.com.br/).
+Projeto ágil e intuitivo desenvolvido com Vue 3 no Vite.
 
 ## Descrição
 
