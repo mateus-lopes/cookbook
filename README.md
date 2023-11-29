@@ -1,3 +1,4 @@
+![Versão](https://img.shields.io/badge/Vers%C3%A3o-1.0.0-blue)
 # CookbookVue
 
 Projeto ágil e intuitivo desenvolvido com Vue 3 no Vite.
