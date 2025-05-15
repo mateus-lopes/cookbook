@@ -1,4 +1,3 @@
-# kind.yml
 kind: Cluster
 apiVersion: kind.x-k8s.io/v1alpha4
 nodes:
@@ -6,3 +5,7 @@ nodes:
     extraPortMappings:
       - containerPort: 30000
         hostPort: 5173
+  - role: worker
+  - role: worker
+  - role: worker
+  - role: worker
