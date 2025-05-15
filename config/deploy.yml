@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cookbook
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: cookbook
+  template:
+    metadata:
+      labels:
+        app: cookbook
+    spec:
+      containers:
+        - name: cookbook
+          image: cookbook:latest
+          ports:
+            - containerPort: 5173
