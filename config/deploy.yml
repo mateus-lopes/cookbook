@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: cookbook
-          image: cookbook:latest
+          image: mateuslopess/cookbook:latest
           ports:
             - containerPort: 5173
